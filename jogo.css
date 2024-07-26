@@ -1,0 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Patrick+Hand&display=swap');
+
+
+body {
+    background: #00ff00;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+canvas {
+    image-rendering: optimizeSpeed;
+    -webkit-interpolation-mode: nearest-neighbor;
+    -ms-touch-action: none;
+    touch-action: none;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+:-webkit-full-screen #canvas {
+    width: 100%;
+    height: 100%;
+}
+:-webkit-full-screen {
+    width: 100%;
+    height: 100%;
+}
+
+div.gm4html5_div_class {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+div.gm4html5_login {
+    padding: 20px;
+    position: absolute;
+    border: solid 2px #000000;
+    background-color: #404040;
+    color:#00ff00;
+    border-radius: 15px;
+    box-shadow: #101010 20px 20px 40px;
+}
+div.gm4html5_cancel_button {
+    float: right;
+}
+div.gm4html5_login_button {
+    float: left;
+}
+div.gm4html5_login_header {
+    text-align: center;
+}
+
+canvas{
+  
+    position: absolute;
+    left: 0px;
+ 
+ 
+    width: 100%;
+    height: 100%;
+    image-rendering: pixelated ;
+ 
+}
+

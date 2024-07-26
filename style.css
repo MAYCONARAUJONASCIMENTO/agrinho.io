@@ -1,0 +1,343 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ga+Maamli&family=Patrick+Hand&display=swap');
+
+
+body {
+    background: #00ff00;
+    color: #000000;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+canvas {
+    image-rendering: optimizeSpeed;
+    -webkit-interpolation-mode: nearest-neighbor;
+    -ms-touch-action: none;
+    touch-action: none;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+:-webkit-full-screen #canvas {
+    width: 100%;
+    height: 100%;
+}
+:-webkit-full-screen {
+    width: 100%;
+    height: 100%;
+}
+
+div.gm4html5_div_class {
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+div.gm4html5_login {
+    padding: 20px;
+    position: absolute;
+    border: solid 2px #000000;
+    background-color: #404040;
+    color:#00ff00;
+    border-radius: 15px;
+    box-shadow: #101010 20px 20px 40px;
+}
+div.gm4html5_cancel_button {
+    float: right;
+}
+div.gm4html5_login_button {
+    float: left;
+}
+div.gm4html5_login_header {
+    text-align: center;
+}
+
+h2{
+    padding: 0px 30px;
+    width: 500px;
+    font-size: 30px;
+    font-family: Patrick Hand, cursive;
+    background-color: #028a14;
+    border-radius: 5px;
+    border-left: 5px solid black;
+    color: black;}
+p{
+    font-size: 10.5px;
+    display: flex;
+    font-family: Patrick Hand, cursive;
+    justify-content: center;
+    width: 250px;
+}
+.colorau{
+    border-radius: 25px;
+    border: 0px solid #73AD21;
+    padding: 10px;
+    position: relative;
+    left: 820px;
+    bottom: 180px;
+    width: 250px;
+    height: 200px;
+}
+
+
+.letra{
+    font-size: 10.5px;
+    display: flex;
+    font-family: Patrick Hand, cursive;
+    width: 250px;
+    flex-direction: row;
+}
+
+
+.cristo{
+    position: absolute;
+    left: 820px;
+    border-radius: 25px;
+    border: 0px solid #73AD21;
+    padding: 10px;
+    width: 250px;
+    height: 200px;
+    top: 570px;
+}
+
+h3{
+    background-color: #028a14;
+    font-size: 30px;
+    text-align: center;
+    display: flex;
+    color: yellow;
+    justify-content: center;
+    animation: piscar 0.8s infinite;
+    font-family: Ga Maamli;
+}
+
+@keyframes piscar {
+    20%{
+        color:yellow ;
+         
+  }
+  40%{
+      color: #028a14;
+  }
+}
+
+:-webkit-full-screen #canvas {
+    width: 100%;
+    height: 100%;
+}
+:-webkit-full-screen {
+    width: 100%;
+    height: 100%;
+}
+
+canvas {
+    background: #028a14;
+    width: 1200px;
+    height: 720px;
+    image-rendering: pixelated;
+    -ms-touch-action: none;
+    touch-action: none;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    position: absolute;
+    left: 100px
+}
+.fundo{
+    z-index: 1;
+    top: 889px;
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    background-color: #028a14;
+}
+
+h6{
+    font-size: 15px;
+    left: 250px;
+    position: absolute;
+    top: 803px;
+    font-family: 'Patrick Hand';
+}
+
+
+.fund{
+    position: absolute;
+    z-index: 3;
+    background-color: #000000;
+    top: 1320px ;
+    width: 100%;
+    height: 167px;
+}
+.icons img {
+    width: 50px;
+    height: 50px;
+   
+}
+
+.tst{
+    position: absolute;
+    z-index: 3;
+    height:150px;
+    width:1384px ;
+   
+}
+.tstt{
+    height:140px ;
+    width:1384px ;
+    position: absolute;
+     z-index: 2;
+    top: 25px; 
+}
+
+h4{
+    text-align: center;
+    font-family: Patrick Hand, cursive;
+    color: aliceblue;
+}
+h5{
+    font-family: Patrick Hand, cursive;
+    position: absolute;
+    top: 20px;
+    color: rgb(153, 153, 153);
+    left: 20px;
+}
+
+button{
+    font-family: Arial, Helvetica, sans-serif;
+    z-index: 5;
+    position: absolute;
+    top: 960px;
+   right: 250px;
+  height: 35px ;
+  width: 100px;
+  border-radius: 20px;
+  border-bottom: none;
+  border-style: none ;
+  background-color: #00ff00;
+  color: rgb(0, 0, 0);
+}
+
+.canavass{
+    position: absolute;
+    left: 0px;
+    border-radius: 25px;
+    width: 100%;
+    height: 100%;
+    image-rendering: pixelated ;
+}
+canvas{
+ 
+    border-radius: 25px;
+    border: 10px solid black;
+
+    width: 100%;
+    height: 100%;
+    image-rendering: pixelated ;
+ 
+}
+
+.pisc{
+   animation: pisscar 2s infinite;
+   opacity:1;
+}
+
+
+@keyframes pisscar {
+    0%{opacity: 1;}    
+    25%{
+        opacity: 0.6;
+}
+
+50%{
+    opacity: 1;
+}
+
+75%{
+    opacity: 0.6;
+}
+
+99%{
+    opacity: 1;
+}
+100%{
+    opacity: 1;
+}
+
+
+}
+.exp{
+    z-index: 6;
+    top: 943px;
+    position: absolute;
+    font-size: 30px;
+    font-family: Patrick Hand, cursive;
+    color: rgb(255, 255, 255);
+    right: 300px;
+}
+
+.Tela{
+    z-index: 5;
+    position: absolute;
+    font-size: 30px;
+    text-decoration: none;
+    color: aliceblue;
+     right: 33px;
+     top: 7px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+
+.tlaaa{
+  z-index: 3;
+  top: 1120px;
+  position: absolute;
+  font-size: 30px;
+  right: 360px;
+  text-decoration: none;
+  background-color: #00ff00;
+  height: 50px;
+  width: 200px;
+  border-radius: 50px;
+}
+.tlaaa:hover{
+    color: #000000;
+    border: solid 2px #00ff00 ;
+    background-color: transparent;
+    height: 55px;
+    width: 200px;
+    border-radius: 50px;
+}
+
+
+@media all and (min-width: 1000px) and (max-width: 1496px) {
+    .tst{
+        position: absolute;
+        z-index: 3;
+        height:220px;
+        width: 100% ;
+       
+    }
+    .tstt{
+        height:140px ;
+        width: 100% ;
+        position: absolute;
+         z-index: 2;
+        top: 25px; 
+    }
+
+}
+
+
+.tras{
+    position: absolute;
+    right: 20px;
+}
+.rede img {
+    position: absolute;
+    z-index: 67;
+    width: 30px;
+    height: 30px;
+    right: 20px;
+}
+
