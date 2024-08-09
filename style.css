@@ -329,15 +329,4 @@ canvas{
 }
 
 
-.tras{
-    position: absolute;
-    right: 20px;
-}
-.rede img {
-    position: absolute;
-    z-index: 67;
-    width: 30px;
-    height: 30px;
-    right: 20px;
-}
 
